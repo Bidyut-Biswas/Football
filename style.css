@@ -192,6 +192,11 @@ a{
     transform: rotate(360deg);
 }
 
+.copy-right p{
+    font-size: 18px;
+    font-weight: 400;
+}
+
  /* footer style end */
 
 
@@ -208,7 +213,7 @@ a{
             grid-template-columns: repeat(1,1fr);
         }
         .half-width img{
-            margin-top: 40px;
+            margin-top: 50px;
         }
         .half-width h1{
             font-size: 36px;
@@ -216,6 +221,9 @@ a{
         .players{
             grid-template-columns: repeat(1,1fr);
             margin: 15px;
+        }
+        .player img:hover{
+            transform: scale(1);
         }
         .achivement{
             grid-template-columns: repeat(1,1fr);
@@ -234,9 +242,7 @@ a{
             width: 30px;
             line-height: 30px;
         }
-        .player img:hover{
-            transform: scale(1);
-        }
+        
     }
 
     /************ responsive for Tablet ********/
